@@ -19,12 +19,14 @@ $ sudo bash c9installer.sh
 Running IDE
 
 ```sh
+$ cd ~/c9sdk
 $ node server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 or You can run sleepless IDE using forever
 
 ```sh
+$ cd ~/c9sdk
 $ forever start server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
