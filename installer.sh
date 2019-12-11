@@ -1,7 +1,8 @@
 #!/bin/bash
 sudo apt-get update -y 
-sudo apt-get curl -y 
+sudo apt-get install curl -y 
 sudo apt-get install build-essential -y
+sudo apt-get install git -y 
 cd ~
 curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
 sudo bash nodesource_setup.sh
