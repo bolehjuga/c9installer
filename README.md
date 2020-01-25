@@ -10,8 +10,13 @@ Requirements
 
 ### Installation
 
-Simple Command Steps
+Install cURL [IMPORTANT]
 
+```sh
+$ apt install curl -y
+```
+
+Then run the installer command
 ```sh
 $ curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/installer.sh -o c9installer.sh
 $ sudo bash c9installer.sh
@@ -24,7 +29,7 @@ $ cd ~/c9sdk
 $ sudo node server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
-or You can run sleepless IDE using forever
+or You can run sleepless (24x7) IDE using forever
 
 ```sh
 $ cd ~/c9sdk
