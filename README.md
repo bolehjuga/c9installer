@@ -4,7 +4,6 @@ Requirements
 
   - Ubuntu Server (14 > 19 LTS)
   - SSH Access
-  - curl is already installed
   - Port 8080 is not used
 
 
