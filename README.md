@@ -2,7 +2,7 @@
 
 Requirements
 
-  - Ubuntu Server (14 > 19 LTS)
+  - Ubuntu (14 > 19 LTS)
   - SSH Access
   - Port 8080 is not used
 
