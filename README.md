@@ -23,15 +23,13 @@ $ curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/inst
 Running IDE
 
 ```sh
-$ cd ~/c9sdk
-$ sudo node server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+$ sudo node ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 or You can run sleepless (24x7) IDE using forever
 
 ```sh
-$ cd ~/c9sdk
-$ sudo forever start server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
+$ sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
 
