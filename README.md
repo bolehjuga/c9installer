@@ -26,7 +26,9 @@ Running IDE
 $ sudo node ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
 ```
 
-or You can run sleepless (24x7) IDE using forever
+#### OR
+
+You can run sleepless (24x7) IDE using forever
 
 ```sh
 $ sudo forever start ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
