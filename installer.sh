@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get update -y 
+sudo apt-get update -y
+sudo apt-get install python -y
 sudo apt-get install build-essential -y
 sudo apt-get install git -y 
 cd ~
@@ -11,4 +12,5 @@ cd ~
 git clone https://github.com/c9/core.git c9sdk
 cd ~/c9sdk
 sudo bash scripts/install-sdk.sh
+sudo apt-get install npm -y
 npm install forever -g
