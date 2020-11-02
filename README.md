@@ -20,13 +20,7 @@ Then run the installer command
 $ curl -sL https://raw.githubusercontent.com/daniakaogem/c9installer/master/installer.sh -o c9installer.sh && sudo bash c9installer.sh
 ```
 
-Running IDE
-
-```sh
-$ sudo node ~/c9sdk/server.js -w /var/www --port 8080 --listen 0.0.0.0 --auth <username>:<password>
-```
-
-#### OR
+#### Running IDE
 
 You can run sleepless (24x7) IDE using forever
 
